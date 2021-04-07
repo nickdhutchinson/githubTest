@@ -1,0 +1,109 @@
+html {
+  display: table;
+}
+
+body {
+  padding: 100px;
+  background: linear-gradient(to right, lightblue, lightblue 50%, darkblue 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.test_box {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(to left, lightblue, lightblue 50%, white 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.u-layout {
+  display: block;
+  margin-bottom: 40px;
+  width: 300px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  font-family: "Varela Round";
+}
+h2 {
+  font-size: small;
+  flex: 0 1 auto; /* the first digint is flex-grow: 0 */
+  color: grey;
+}
+
+.u-form-sizes {
+  margin-bottom: 20px;
+}
+
+.c-form {
+  font-weight: bold;
+  display: block;
+  height: 40px;
+  width: 300px;
+}
+
+.c-margin-lft-20 {
+  margin-left: 20px;
+}
+
+#forgot_password {
+  color: grey;
+  font-weight: bold;
+  text-align: right;
+  font-size: small;
+}
+
+.sign_up_link {
+  color: blue;
+}
+
+#google_logo {
+  width: 100%;
+  height: 70px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background-color: #11105f;
+  color: white;
+  border: #11105f;
+}
+
+a {
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+
+.u-display-flex {
+  display: flex;
+}
+
+p {
+  color: grey;
+}
+
+#header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center; /* making vertical centerign of all children */
+  width: 300px;
+}
+
+#header::before,
+#header::after {
+  content: "";
+  flex: 1 1 auto; /* the first digint is 'flex-grow: 1', helps elemet to occupy all free space */
+  border-bottom: solid 1px grey;
+}
+
+hr {
+  width: 300px;
+}
