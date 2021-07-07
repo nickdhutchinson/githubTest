@@ -1,0 +1,102 @@
+.u-blue-gradient {
+  background: linear-gradient(to right, lightblue, lightblue 50%, darkblue 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.u-padding-100 {
+  padding: 100px;
+}
+
+.c-login-card {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(to left, lightblue, lightblue 50%, white 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.u-layout {
+  display: block;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.c-w-100 {
+  width: 100%;
+}
+h1 {
+  font-size: 30px;
+  font-family: "Varela Round";
+}
+h2 {
+  font-size: small;
+  color: grey;
+}
+
+.u-mb-20 {
+  margin-bottom: 20px;
+}
+
+.c-input {
+  font-weight: bold;
+  display: block;
+  height: 40px;
+  width: 100%;
+}
+
+.u-ml-20 {
+  margin-left: 20px;
+}
+
+.u-text-blue {
+  color: blue;
+}
+
+.c-google-logo {
+  width: 100%;
+  height: 70px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #11105f;
+  color: white;
+  border: #11105f;
+}
+
+a {
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+
+.u-display-flex {
+  display: flex;
+}
+
+.c-text-grey {
+  color: grey;
+}
+
+.c-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.c-header::before,
+.c-header::after {
+  content: "";
+  flex: 1 1 auto;
+  border-bottom: solid 1px grey;
+}
+
+hr {
+  width: 100%;
+}
